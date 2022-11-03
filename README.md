@@ -7,7 +7,7 @@ there is no prior work exploring this. Thus, we first explore the simplest diver
 orthogonal space-time codes (OSTBC) which represents 'diversity' and the spatial multiplexing scheme representing 'multiplexing' is studied.
 It is shown that by using the OSTBC, the DeepJSCC system can outperform the multiplexing scheme when $N_r$ is small and low channel SNR:
 
-<div align=center><img src="performance.png" width="500px"></div>
+<div align=center><img src="tradeoff.png" width="500px"></div>
 
 
 ## Dependency
