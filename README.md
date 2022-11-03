@@ -2,7 +2,7 @@
 Source code for "Space-time design for deep joint source channel coding of images Over MIMO channels", https://arxiv.org/abs/2210.16985
 
 ## Introduction
-Diversity-Multiplexing trade-off for MIMO systems has been extensively studied in digital communication systems (Zeng & Tse). However, for the emerging semantic communications
+Diversity-Multiplexing trade-off for MIMO systems has been extensively studied in digital communication systems (Zheng & Tse). However, for the emerging semantic communications
 there is no prior work exploring this. Thus, we first explore the simplest diversity-multiplexing trade-off for the semantic communications, where the system performance using 
 orthogonal space-time codes (OSTBC) which represents 'diversity' and the spatial multiplexing scheme representing 'multiplexing' is studied.
 It is shown that by using the OSTBC, the DeepJSCC system can outperform the multiplexing scheme when $N_r$ is small and low channel SNR:
