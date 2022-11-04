@@ -32,8 +32,8 @@ It is worth mentioning the implementation of the baseline as follows:
 We only provide the BPG + MIMO capacity scheme which is because our implementation for digital baseline gives a very bad PSNR performance, thus we only provide the 
 upper bound of all digital schemes by assuming MIMO capacity.
 
-The MIMO Capacity is calculated as $C(H) = log2(I+\frac{P}{\sigma^2}H'H)$ for arbitary $H$. Note that we will compress an image based on that instantaneous capacity to obtain
-the PSNR value. The values will be averaged over all $10^5$ different MIMO implementations and the entire dataset.
+The MIMO Capacity is calculated as $C(H) = log2(det(I+\frac{P}{\sigma^2}H'H))$ for arbitary $H$. Note that we will compress an image based on that instantaneous capacity to obtain
+the PSNR value. These values will be averaged over all $10^5$ different MIMO implementations and the entire dataset.
 
 Interested readers can also implement the baseline where the transmitter uses BPG + LDPC + QAM and the receiver employs Sphere decoding + LDPC decoder. Based on our experiments, 
 this gives unstatsifactory results. The sphere decoding block can be found in Matlab builtin function: comm.SphereDecoder.
