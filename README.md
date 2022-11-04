@@ -4,8 +4,8 @@ Source code for "Space-time design for deep joint source channel coding of image
 ## Introduction
 Diversity-Multiplexing trade-off for MIMO systems has been extensively studied in digital communication systems (Zheng & Tse). However, for the emerging semantic communications
 there is no prior work exploring this. Thus, we first explore the simplest diversity-multiplexing trade-off for the semantic communications, where the system performance using 
-orthogonal space-time codes (OSTBC) which represents 'diversity' and the spatial multiplexing scheme representing 'multiplexing' is studied.
-It is shown that by using the OSTBC, the DeepJSCC system can outperform the multiplexing scheme when $N_r$ is small and low channel SNR:
+orthogonal space-time codes (OSTBC) which represents **diversity** and the spatial multiplexing scheme representing **multiplexing** are studied.
+It is shown that by using the OSTBC, the **diversity** system can outperform the **multiplexing** scheme when $N_r$ is small and low channel SNR:
 
 <div align=center><img src="tradeoff.png" width="500px"></div>
 
@@ -17,10 +17,10 @@ It is shown that by using the OSTBC, the DeepJSCC system can outperform the mult
 - compressai (pip install compressai)
 
 ## Reproduce
-Basically, directly run the 'run.py' will generate the performance of the 'diversity' scheme for a 2x2 MIMO system. To generate the performance for other scenarios,
+Basically, directly run the 'run.py' will generate the performance of the **diversity** scheme for a 2x2 MIMO system. To generate the performance for other scenarios,
 please alternate the parameters in 'get_args.py'. 
 
-E.g., for 'multiplexing' scheme, change the 'args.diversity' to false. args.distributed assumes that the two antennas may belong the 
+E.g., for **multiplexing** scheme, change the 'args.diversity' to false. args.distributed assumes that the two antennas may belong the 
 two users (distributed MIMO), for conventional MIMO system, place it to false. Also, $P1, P2$ should be set to the same for conventional MIMO, it can be
 different for a distributed MIMO, though. 
 
