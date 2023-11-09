@@ -1,5 +1,5 @@
 # Space-time JSCC over MIMO channel
-Source code for "Space-time design for deep joint source channel coding of images Over MIMO channels", https://arxiv.org/abs/2210.16985, accepted to SPAWC 2023
+Source code for "Space-time design for deep joint source channel coding of images Over MIMO channels", SPAWC 2023, https://ieeexplore.ieee.org/document/10304536
 
 ## Introduction
 Diversity-Multiplexing trade-off for MIMO systems has been extensively studied in digital communication systems (Zheng & Tse). However, for the emerging semantic communications
