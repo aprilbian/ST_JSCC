@@ -24,6 +24,9 @@ E.g., for **multiplexing** scheme, change the 'args.diversity' to false. args.di
 two users (distributed MIMO), for conventional MIMO system, place it to false. Also, $P1, P2$ should be set to the same for conventional MIMO, it can be
 different for a distributed MIMO, though. 
 
+Note that the SNR defination in this repo is different from our another DeepJSCC-MIMO paper (https://arxiv.org/abs/2309.00470), where another one can be implementated via belows lines:
+`noise_stddev=torch.sqrt(10**(-snr/10)*Nt/2)'.
+
 
 ## Baseline
 
